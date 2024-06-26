@@ -1,92 +1,92 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .Nelson_content{
-            display:flex;
-            flex-direction: row;
-        }
-        .container_section{
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-        }
-        .text_content{
-            display: flex;
-            flex-direction: column;
-        }
-        .name {
-            font-style: italic;
-            font-size: 24px;
-            flex-basis: 80%;
-            height: 20%;
-            text-align: left;
-            align-self: center;
-        }
-
-        .section {
-            margin-bottom: 50px;
-        }
-        .content {
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 20px;
-        }
-        .content .text {
-            flex: 3;
-            padding: 20px;
-        }
-        .content .sidebar {
-            flex: 1;
-            background-color: #ece6e6;
-            padding: 20px;
-            margin-left: 20px;
-
-        }
-
-        h1 {
-            color: #2e8b57;
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-        h1.hochiminh {
-            color: #3cb371;
-        }
-
-        .images, .video {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .images img, .video iframe {
-            width: 80%;
-            height: auto;
-            margin-bottom: 20px;
-        }
-        .comment-section {
-            margin-top: 20px;
-        }
-        .comment-section textarea {
-            width: 100%;
-            height: 100px;
-            padding: 10px;
-            font-size: 16px;
-        }
-        .comment-section button {
-            display: block;
-            width: 100px;
-            padding: 10px;
-            background-color: #2e8b57;
-            color: white;
-            border: none;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+    
+.Nelson_content{     
+    display:flex;
+    flex-direction: row;
+}
+ .container_section{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: white;
+ }
+ 
+.text_content{     
+    display: flex;
+    flex-direction: column;
+} 
+.name {     
+    font-style: italic;
+    font-size: 24px;
+    flex-basis: 80%;
+    height: 20%;
+    text-align: left;
+    align-self: center;
+}
+ .section {
+     margin-bottom: 50px;
+ }
+.content {     
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+} 
+.content .text {     
+    flex: 3;
+    padding: 20px;
+} 
+.content .sidebar {     
+    flex: 1;
+    background-color: #ece6e6;
+    padding: 20px;
+    margin-left: 20px;
+}
+ h1 {
+     color: #2e8b57;
+     font-size: 36px;
+     margin-bottom: 10px;
+ }
+ 
+h1.hochiminh {     
+    color: #3cb371;
+}
+ .images, .video {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+ }
+.images img, .video iframe {     
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+ .comment-section {
+     margin-top: 20px;
+ }
+ 
+.comment-section textarea {     
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+}
+ .comment-section button {
+     display: block;
+     width: 100px;
+     padding: 10px;
+     background-color: #2e8b57;
+     color: white;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+     margin-top: 10px;
+ }
 .topic{
     border-bottom:1px solid black;
 }
@@ -143,9 +143,9 @@ li{
     flex-direction: column;
     text-align: right;
 }
-video1 {
+.video {
     position: relative;
-    padding-bottom: 56.25%; / 16:9 aspect ratio (adjust as needed) /
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
